@@ -1,0 +1,24 @@
+.content-projects p {
+    cursor: pointer;
+}
+
+.content-projects a {
+    text-decoration: none;
+    color: black;
+}
+
+.content-projects p:hover,
+.content-projects a:hover {
+    background-color: black;
+    color: white;
+}
+
+.content {
+    width: 65%;
+}
+
+.content-projects {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
