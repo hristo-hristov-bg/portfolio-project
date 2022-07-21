@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/index.css" />
     <link rel="stylesheet" href="../css/contact-me.css" />
+    <link rel="stylesheet" href="../css/about-me.css" />
+    <link rel="stylesheet" href="/resources/css/my-projects.css" />
     <script src="../scripts/app.js"></script>
     <script
       src="https://kit.fontawesome.com/08da1419b3.js"
@@ -26,13 +28,13 @@
         </div>
         <ul class="nav-menu">
           <li>
-            <a href="./about-me.html">About Me</a>
+            <a href="../screens/about-me.html">About Me</a>
           </li>
           <li>
-            <a href="../screens/my-projects.html">My Projects</a>
+            <a href="#" class="active">My Projects</a>
           </li>
           <li>
-            <a href="#" class="active">Contact Me</a>
+            <a href="./contact-me.html">Contact Me</a>
           </li>
         </ul>
       </nav>
@@ -40,19 +42,12 @@
 
     <main>
       <div class="content">
-        <div class="content-contact-me">
-          <h3>Contact Me</h3>
-          <p>
-            Have a question or an interesting project? <br />
-            I would be more than happy to know about it!
-          </p>
-        </div>
-        <div class="content-social-links">
-          <a href="#">
-            <i class="fa-brands fa-linkedin fa-2x"></i>
-            <i class="fa-brands fa-github fa-2x"></i>
-            <i class="fa-solid fa-at fa-2x"></i>
-          </a>
+        <div class="content-projects">
+          <h3>Projects</h3>
+          <p id="codecademy" onclick="codecademy()">CodeCademy-Course Projects</p>
+          <p id="typescript" onclick="typescript()" >TypeScript-Course Projects</p>
+          <p id="css-course" onclick="cssCourse()">CSS-Course Projects</p>
+          <p id="softuni" onclick="softuni()" >Softuni-Course Projects</p>
         </div>
       </div>
     </main>
