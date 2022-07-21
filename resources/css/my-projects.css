@@ -1,5 +1,6 @@
 .content-projects p {
     cursor: pointer;
+    width: fit-content;
 }
 
 .content-projects a {
