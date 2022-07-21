@@ -107,10 +107,15 @@ footer {
 .iconify {
     width: 43px;
     height: 43px;
+    cursor: grab;
 }
 
 .nav-menu a.active {
     background-color: black;
     color: white;
     padding: 5px;
+}
+
+.skills-container i {
+    cursor: grab;
 }
