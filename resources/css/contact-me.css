@@ -21,7 +21,7 @@ footer {
 .content {
     display: flex;
     flex-direction: column;
-    height: 400px;
+    justify-content: center;
 }
 
 .content-contact-me {
