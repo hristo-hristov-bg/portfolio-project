@@ -17,6 +17,7 @@
   </head>
   <body>
     <header>
+      <!-- Desktop Navigation -->
       <nav>
         <div id="logo">
           <a href="../../index.html">
@@ -38,19 +39,44 @@
           </li>
         </ul>
       </nav>
+      <!-- Mobile Navigation -->
+      <div class="mobile-container">
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+          <div id="logo">
+            <a href="../../index.html">
+              <img
+                src="../images/portfolio-project-logo.png"
+                alt="project-logo-image"
+              />
+            </a>
+          </div>
+          <div id="myLinks">
+            <a href="../../resources/screens/about-me.html">About Me</a>
+            <a href="../../resources/screens/my-projects.html">My Projects</a>
+            <a href="../../resources/screens/contact-me.html">Contact Me</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </div>
     </header>
-
     <main>
       <div class="content">
         <div class="content-projects">
           <h3>Projects</h3>
-          <p id="codecademy" onclick="codecademy()">CodeCademy-Course Projects</p>
-          <p id="typescript" onclick="typescript()" >TypeScript-Course Projects</p>
+          <p id="codecademy" onclick="codecademy()">
+            CodeCademy-Course Projects
+          </p>
+          <p id="typescript" onclick="typescript()">
+            TypeScript-Course Projects
+          </p>
           <p id="css-course" onclick="cssCourse()">CSS-Course Projects</p>
-          <p id="softuni" onclick="softuni()" >Softuni-Course Projects</p>
+          <p id="softuni" onclick="softuni()">Softuni-Course Projects</p>
         </div>
       </div>
     </main>
-    <footer>&copy; 2022 Hristo Hristov</footer>
+    <div class="footer">&copy; 2022 Hristo Hristov</div>
   </body>
 </html>

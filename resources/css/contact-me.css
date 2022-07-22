@@ -8,9 +8,6 @@ main {
     justify-content: center;
 }
 
-footer {
-    margin-top: 15px;
-}
 
 .nav-menu a.active {
     background-color: black;
