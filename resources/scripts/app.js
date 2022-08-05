@@ -12,7 +12,7 @@ function typescript() {
 
 function cssCourse() {
   const link =
-    "<a https://github.com/hristo-hristov-bg/css-course'>https://github.com/hristo-hristov-bg/css-course</a>";
+    "<a href='https://github.com/hristo-hristov-bg/css-course'>https://github.com/hristo-hristov-bg/css-course</a>";
   document.getElementById("css-course").innerHTML = link;
 }
 
